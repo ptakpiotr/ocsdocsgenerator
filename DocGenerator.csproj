@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>OCSDocsGenerator</PackageId>
+    <Authors>ptakpiotr</Authors>
+    <Company>ptakpiotr</Company>
+    <Product>OCSDocsGenerator</Product>
+    <Description>Simple documentation generator for your C# project.</Description>
+    <Copyright>MIT</Copyright>
+    <PackageIcon>doc.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="doc.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
