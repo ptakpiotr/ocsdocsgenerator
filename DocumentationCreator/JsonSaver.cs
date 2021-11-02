@@ -13,10 +13,7 @@ namespace DocGenerator.DocumentationCreator
             using (StreamWriter sw = new StreamWriter($"./docs_{Guid.NewGuid().ToString().Replace("-", "_")}.json"))
             {
                 sw.WriteLine("{");
-                li.ForEach((elem) =>
-                {
-                    sw.WriteLine($"\"{elem.Id}\":{JsonSerializer.Serialize(elem)},");
-                });
+                sw.WriteLine($"\"Methods\":{JsonSerializer.Serialize(li)},");
                 sw.WriteLine("}");
             }
         }
