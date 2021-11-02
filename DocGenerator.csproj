@@ -11,6 +11,7 @@
     <Description>Simple documentation generator for your C# project.</Description>
     <Copyright>MIT</Copyright>
     <PackageIcon>doc.png</PackageIcon>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,7 +1,7 @@
 # OCS Docs Generator
 <br />
 
-![Icon](./doc.png) ![Last Commit](https://img.shields.io/github/last-commit/ptakpiotr/ocsdocsgenerator) ![Repo size](https://img.shields.io/github/repo-size/ptakpiotr/ocsdocsgenerator) ![Nuget Version](https://img.shields.io/nuget/v/ptakpiotr.ocsdocsgenerator)
+![Icon](./doc.png) ![Last Commit](https://img.shields.io/github/last-commit/ptakpiotr/ocsdocsgenerator) ![Repo size](https://img.shields.io/github/repo-size/ptakpiotr/ocsdocsgenerator)
 
 [Big thanks to icon author](https://www.flaticon.com/premium-icon/doc_5730866?term=docs&page=2&position=23&page=2&position=23&related_id=5730866&origin=search)
 
@@ -65,3 +65,4 @@ Where the first argument is the type of class you want to create documentation f
 
 ## Updates
  * 1.0.0 First Relase 
+ * 1.1.0 Restructured the way docs are written to json file
