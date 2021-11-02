@@ -64,5 +64,4 @@ Creator cr = new Creator(typeof(Program),"First");
 Where the first argument is the type of class you want to create documentation for (and for all using statements too) and the second is the namespace name fragment - important for performance reasons (behind the scenes there is reflection which is time and resource consuming).
 
 ## Updates
- * 1.0.0 First Relase 
- * 1.1.0 Restructured the way docs are written to json file
+ * 1.0.0 First Relase
