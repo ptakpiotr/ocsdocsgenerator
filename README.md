@@ -17,7 +17,7 @@ Simple but powerful Nuget Package that allows you to generate JSON documentation
 * C#
 
 ## Usage
-You have to download the Nuget package from nuget repo.
+You have to download repo and package it as Nuget Package.
 
 ### Steps to follow:
 ### 1. Decorate methods
